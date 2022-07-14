@@ -16,24 +16,24 @@
       <aside class="control-menu">
         <h3>Controls</h3>
           <ul>
+            <li><button id="ink-black">Black Ink</button></li>
+            <li><button id="ink-colour">Colour Ink</button></li>
+            <li><button id="ink-eraser">Eraser</button></li>
+            <li><button>Show Grid</button></li>
             <li><button>Clear</button></li>
-            <li><button>Black Ink</button></li>
-            <li><button>Colour Ink</button></li>
-            <li><button>Erase</button></li>
-            <li><button>Hide Grid</button></li>
           </ul>
       </aside>
       <section class="sketch-container">
         <div id="drawing-area"></div>
-        <section>
+        <!--<div class="grid-item"></div>-->
+        <section class="slide-container">
             <div class="slide-bar">Zoom: <span id="zoom-output"></span>x
               <input type="range" min="10" max="100" step= "10" value="10" id="slider">
               <!--Value: <span id="value"></span>
               Value: <span id="outputVariable"></span>-->
             </div>
-        </section>      
-        <h2>Etch-A-Sketch</h2>
-        <p>To begin drawing click and drag your cursor over the drawing area.</p>   
+            <p>To begin drawing choose ink, and click and drag your cursor over the drawing area.</p>
+        </section>
       </section>
     
 

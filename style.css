@@ -62,10 +62,18 @@ header {
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-columns), 1fr);
 }
+/*
+.grid-item:hover{
+    background-color: black;
+}*/
+
+.my-color-class {
+    background-color: black;
+  }
+
 
 .grid-item {
-    border: 1px solid #ddd;
-    text-align: center;
+    background-color: white;
 }
 
 .sketch-container h2 {
@@ -118,6 +126,9 @@ header {
     opacity: 1;
 }
 
+.slide-container {
+text-align: center;
+}
 
 /* LAYOUT TEST OUTLINE */
 * {
