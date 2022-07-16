@@ -49,11 +49,11 @@ function makeRows(rows, columns) {
 slider.oninput = function() {
     if (this.value > 0) {
       document.getElementById("drawing-area").innerHTML = "";
-      //clears container to prevent grid from being created everytime
-      //the slider is moved
       zoomValue.innerHTML = this.value;
       zoomValue_let = zoomValue.innerHTML;
       makeRows(this.value, this.value);
+    //clears container to prevent grid from being created everytime
+    //the slider is moved
     }
 
 }
