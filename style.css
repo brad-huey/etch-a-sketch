@@ -41,7 +41,6 @@ header {
 
 .sketch-container {
     display: grid;
-    border-bottom: 3px solid #693f7e;
     width: 500px;
     justify-self: center;
 }
@@ -61,11 +60,9 @@ header {
     display: grid;
     grid-template-rows: repeat(var(--grid-rows), 1fr);
     grid-template-columns: repeat(var(--grid-columns), 1fr);
+    outline: 3px solid #4cd0a8;
+    margin-top: .5rem;
 }
-/*
-.grid-item:hover{
-    background-color: black;
-}*/
 
 .my-color-class {
     background-color: black;
@@ -74,6 +71,7 @@ header {
 
 .grid-item {
     background-color: white;
+    outline: 1px solid grey;
 }
 
 .sketch-container h2 {
@@ -130,7 +128,8 @@ header {
 text-align: center;
 }
 
-/* LAYOUT TEST OUTLINE */
+/* LAYOUT TEST OUTLINE 
 * {
     outline: 1px solid red !important;
 }
+*/
